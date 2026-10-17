@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image : ghcr.io/dazinenoamane/portfolio-app:5bfbe4c5900edfcb9a54583025c80db37eca81f9
+          image: ghcr.io/dazinenoamane/app-portfolio:77f134d6100e99b71b05e7a1972d3b437187bc35
           ports :
             - containerPort: 80
           resources:
