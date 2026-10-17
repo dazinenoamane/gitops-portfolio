@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image : nginx:1.27
+          image : ghcr.io/dazinenoamane/portfolio-app:5bfbe4c5900edfcb9a54583025c80db37eca81f9
           ports :
             - containerPort: 80
           resources:
